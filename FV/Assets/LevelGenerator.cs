@@ -16,6 +16,11 @@ public class LevelGenerator : MonoBehaviour
     public GameObject  WaterPrefab;
     public GameObject  EmptyPrefab;
 
+    public int test {
+        get { return 0; }
+        set { }
+    }
+
     private void Start()
     {
         LevelGrid = new CaseType[5, 5];
